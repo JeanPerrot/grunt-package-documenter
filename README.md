@@ -2,6 +2,31 @@
 
 > Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.
 
+## Sample output
+```markdown
+# my-app
+
+## Direct Dependencies
+
+### Node
+
+[lodash](#lodash)
+
+## NodeJS modules
+
+### lodash
+
+version 3.10.1 (MIT license)
+
+The modern build of lodash modular utilities.
+
+[Homepage](https://lodash.com/)
+
+#### Dependers
+
+[my-app](#my-app)
+```
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
