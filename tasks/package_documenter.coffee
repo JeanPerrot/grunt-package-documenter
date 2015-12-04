@@ -8,7 +8,7 @@
 
 module.exports = (grunt) ->
 
-  grunt.registerMultiTask 'package_documenter', 'Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.', ->
+  grunt.registerTask 'package_documenter', 'Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.', ->
     # Merge task-specific and/or target-specific options with these defaults.
     options = @options
       output: './doc/third-party.md'

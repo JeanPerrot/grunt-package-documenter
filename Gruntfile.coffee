@@ -26,9 +26,8 @@ module.exports = (grunt) ->
 
     # Configuration to be run (and then tested).
     package_documenter:
-      run:
-        options:
-          output: 'tmp/out.md'
+      options:
+        output: 'tmp/out.md'
 
     # Unit tests.
     nodeunit:

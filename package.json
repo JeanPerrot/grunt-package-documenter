@@ -1,7 +1,7 @@
 {
   "name": "grunt-package-documenter",
   "description": "Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/adamliechty/grunt-package-documenter",
   "author": {
     "name": "Adam Liechty",
