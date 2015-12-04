@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": ">= 4.2.2"
+    "node": ">= 4.2.0"
   },
   "scripts": {
     "test": "grunt test"
