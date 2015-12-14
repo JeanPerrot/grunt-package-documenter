@@ -1,5 +1,8 @@
 # grunt-package-documenter
 
+[![bitHound Overalll Score](https://www.bithound.io/github/AdamLiechty/grunt-package-documenter/badges/score.svg)](https://www.bithound.io/github/AdamLiechty/grunt-package-documenter)
+
+
 > Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.
 
 ## Sample output
