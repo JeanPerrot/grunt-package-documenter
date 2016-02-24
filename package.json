@@ -1,5 +1,5 @@
 {
-  "name": "grunt-package-documenter",
+  "name": "package-documenter",
   "description": "Generates Markdown documentation of all installed npm modules (and bower components if any) used by your project.",
   "version": "0.1.2",
   "homepage": "https://github.com/adamliechty/grunt-package-documenter",
@@ -9,29 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adamliechty/grunt-package-documenter.git"
+    "url": "git://github.com/jeanbrahnperrot/grunt-package-documenter.git"
   },
+  "main": "lib/index.js",
   "bugs": {
-    "url": "https://github.com/adamliechty/grunt-package-documenter/issues"
+    "url": "https://github.com/jeanbrahnperrot/grunt-package-documenter/issues"
   },
   "license": "MIT",
   "engines": {
     "node": ">= 4.2.0"
   },
   "scripts": {
-    "test": "grunt test"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-contrib-clean": "^0.7.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt": "~0.4.5"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.5"
+    "test": "mocha",
+    "dist" : "coffee -c --output lib/ src/"
   },
   "keywords": [
-    "gruntplugin"
+    "documentation"
   ],
   "dependencies": {
     "lodash": "^3.10.1"
