@@ -1,7 +1,11 @@
 
 module.exports = (outputFile) ->
   loadJSON = (file) ->
-    JSON.parse fs.readFileSync file, 'utf8'
+    try
+      JSON.parse fs.readFileSync file, 'utf8'
+    catch error
+      console.log "invalid json: #{file}"
+      {}
 
   fs = require 'fs'
   path = require 'path'
